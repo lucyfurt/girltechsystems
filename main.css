@@ -274,3 +274,71 @@ footer .container {
 .social-media ul li:last-child {
     margin-right: 0;
 }
+
+/* Adicione estas regras de mídia no seu arquivo main.css */
+
+/* Estilos para telas menores que 768px */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header p {
+        margin: 0 20px;
+        font-size: 24px;
+    }
+
+    menu {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    menu li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .card {
+        width: 100%;
+        margin-inline: 0;
+    }
+}
+
+/* Estilos para telas menores que 600px */
+@media only screen and (max-width: 600px) {
+    #banner {
+        height: 100vh;
+    }
+
+    .card {
+        width: 100%;
+        margin-inline: 0;
+    }
+
+    .values {
+        flex-direction: column;
+    }
+
+    .value {
+        margin: 10px 0;
+    }
+
+    .testimonial {
+        margin-bottom: 20px;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-info,
+    .social-media {
+        margin: 20px 0;
+    }
+}
