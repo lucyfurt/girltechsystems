@@ -140,14 +140,15 @@ menu a:hover {
 
 }
 .tabs{
-    padding: 10px;
+    padding: 30px;
 }
 .tablinks {
-    background-color: #f2f2f2;
+    background-color: #FE74A9;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 30px 50px;
+    font-size: 18px;
     transition: background-color 0.3s ease;
 }
 
@@ -224,7 +225,7 @@ menu a:hover {
 }
 
 .contact-form button {
-    background-color: #333;
+    background-color: #FE74A9;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -272,8 +273,8 @@ menu a:hover {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #FE74A9;
+    color: #383333;
     text-align: center;
     padding: 20px 0;
 }
@@ -310,11 +311,14 @@ footer .container {
     margin-right: 10px;
 }
 
+.social-media img{
+    width: 40px;
+}
+
 .social-media ul li:last-child {
     margin-right: 0;
 }
 
-/* Adicione estas regras de mídia no seu arquivo main.css */
 
 /* Estilos para telas menores que 768px */
 @media only screen and (max-width: 768px) {
