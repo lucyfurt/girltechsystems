@@ -12,7 +12,8 @@ header {
     align-items: center;
     padding: 20px;
 }
-header p{
+
+header p {
     font-family: 'Dancing Script';
     font-size: 36px;
     margin: 20px 20px 0;
@@ -21,7 +22,7 @@ header p{
 menu {
     padding: 0;
     margin: 0;
-    
+
 }
 
 menu li {
@@ -71,7 +72,8 @@ menu a:hover {
     justify-content: space-around;
 
 }
-#services h1{
+
+#services h1 {
     text-align: left;
 }
 
@@ -122,6 +124,43 @@ menu a:hover {
     margin: 0 auto;
 }
 
+/* Estilos para a seção de projects*/
+
+#projects {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fff;
+
+}
+
+#projects .container{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.tabs{
+    padding: 10px;
+}
+.tablinks {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.tablinks:hover {
+    background-color: #ddd;
+}
+
+.category {
+    display: none;
+}
+
+/* Estilos para a seção de about*/
+
 
 #about {
     background-color: #f9f9f9;
@@ -129,7 +168,7 @@ menu a:hover {
     padding: 50px 0;
 }
 
-#about h3{
+#about h3 {
     text-align: left;
 }
 
@@ -299,10 +338,6 @@ footer .container {
         padding: 10px 0;
     }
 
-    .container {
-        width: 90%;
-    }
-
     .card {
         width: 100%;
         margin-inline: 0;
@@ -311,19 +346,22 @@ footer .container {
 
 /* Estilos para telas menores que 600px */
 @media only screen and (max-width: 600px) {
-    
-header {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
+
+    header {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
     #banner {
         height: 50vh;
     }
+
     #services .container {
-        flex-direction: column; /* Mudar a direção do flex para coluna */
-        align-items: center; /* Centralizar os itens */
+        flex-direction: column;
+        align-items: center;
     }
+
     .card {
         width: 100%;
         margin-inline: 0;

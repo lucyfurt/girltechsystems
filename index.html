@@ -14,10 +14,10 @@
     <header>
         <p>Girl Tech Systems</p>
         <menu>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contatos</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contacts">Contatos</a></li>
         </menu>
     </header>
     <main>
@@ -53,28 +53,113 @@
                 <div class="card">
                     <img src="./img/sys.jpg" alt="Quem somos">
                     <h3>Sistemas Web</h3>
+                    <p>Desenvolvemos sistemas sob medida que se adaptam perfeitamente às suas necessidades específicas,
+                        aumentando a eficiência e a produtividade.</p>
 
                 </div>
                 <div class="card">
                     <img src="./img/websites.png" alt="Contatos">
-                    <h3>Websites/Webdesign</h3>
-                    <p>Criação de Sites: pessoais e empresariais</p>
-                    <p> hospedagem de sites</p>
-                    <p>planos de manutenção</p>
-
+                    <h3>Websites pessoais e profissionis</h3>
+                    <p>Criamos sites atraentes, responsivos e funcionais que refletem sua marca e ajudam a atrair mais
+                        visitantes e clientes.</p>
                 </div>
                 <div class="card">
                     <img src="./img/robot.jpg" alt="Serviços">
                     <h3>Robôs Automatizados</h3>
-                    <p> robos automatizados</p>
+                    <p>Otimize seu Tempo e Aumente sua produtividade com nossas soluções inteligentes agilizando seus
+                        processos de trabalho.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Nossos Projetos</h2>
+            <div class="tabs">
+                <button class="tablinks" onclick="openCategory(event, 'web')">Sistemas Web</button>
+                <button class="tablinks" onclick="openCategory(event, 'sites')">Sites</button>
+                <button class="tablinks" onclick="openCategory(event, 'robots')">Robôs</button>
+            </div>
+            <div class="container">           
+                <div id="web" class="category">
+                    <div class="container">
+                        <div class="card">
+                            <img src="./img/sys.jpg" alt="Quem somos">
+                            <h3>Sistemas Web</h3>
+                            <p>Desenvolvemos sistemas sob medida que se adaptam perfeitamente às suas necessidades específicas,
+                                aumentando a eficiência e a produtividade.</p>
+        
+                        </div>
+                        <div class="card">
+                            <img src="./img/websites.png" alt="Contatos">
+                            <h3>Websites pessoais e profissionis</h3>
+                            <p>Criamos sites atraentes, responsivos e funcionais que refletem sua marca e ajudam a atrair mais
+                                visitantes e clientes.</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/robot.jpg" alt="Serviços">
+                            <h3>Robôs Automatizados</h3>
+                            <p>Otimize seu Tempo e Aumente sua produtividade com nossas soluções inteligentes agilizando seus
+                                processos de trabalho.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="sites" class="category" style="display:none;">
+                    <div class="container">
+                        <div class="card">
+                            <img src="./img/sys.jpg" alt="Quem somos">
+                            <h3>Sistemas Web</h3>
+                            <p>Desenvolvemos sistemas sob medida que se adaptam perfeitamente às suas necessidades específicas,
+                                aumentando a eficiência e a produtividade.</p>
+        
+                        </div>
+                        <div class="card">
+                            <img src="./img/websites.png" alt="Contatos">
+                            <h3>Websites pessoais e profissionis</h3>
+                            <p>Criamos sites atraentes, responsivos e funcionais que refletem sua marca e ajudam a atrair mais
+                                visitantes e clientes.</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/robot.jpg" alt="Serviços">
+                            <h3>Robôs Automatizados</h3>
+                            <p>Otimize seu Tempo e Aumente sua produtividade com nossas soluções inteligentes agilizando seus
+                                processos de trabalho.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="robots" class="category" style="display:none;">
+                    <div class="container">
+                        <div class="card">
+                            <img src="./img/sys.jpg" alt="Quem somos">
+                            <h3>Sistemas Web</h3>
+                            <p>Desenvolvemos sistemas sob medida que se adaptam perfeitamente às suas necessidades específicas,
+                                aumentando a eficiência e a produtividade.</p>
+        
+                        </div>
+                        <div class="card">
+                            <img src="./img/websites.png" alt="Contatos">
+                            <h3>Websites pessoais e profissionis</h3>
+                            <p>Criamos sites atraentes, responsivos e funcionais que refletem sua marca e ajudam a atrair mais
+                                visitantes e clientes.</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/robot.jpg" alt="Serviços">
+                            <h3>Robôs Automatizados</h3>
+                            <p>Otimize seu Tempo e Aumente sua produtividade com nossas soluções inteligentes agilizando seus
+                                processos de trabalho.</p>
+                        </div>
+                    </div>
+
+
+
+
 
                 </div>
             </div>
         </section>
 
-        <section id="contact">
+
+        <section id="contacts">
             <div class="container">
-                <h2>Entre em Contato</h2>
+                <h2>Como eu posso te ajudar?</h2>
                 <div class="contact-form">
                     <form action="#" method="post">
                         <input type="text" name="name" placeholder="Seu Nome" required>
@@ -122,6 +207,7 @@
             </div>
         </div>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
