@@ -311,10 +311,19 @@ footer .container {
 
 /* Estilos para telas menores que 600px */
 @media only screen and (max-width: 600px) {
+    
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
     #banner {
-        height: 100vh;
+        height: 50vh;
     }
-
+    #services .container {
+        flex-direction: column; /* Mudar a direção do flex para coluna */
+        align-items: center; /* Centralizar os itens */
+    }
     .card {
         width: 100%;
         margin-inline: 0;
