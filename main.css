@@ -67,7 +67,7 @@ h2 {
 
 
 #about {
-    background-color: #f7e3e3;
+    background-color: #eeb2c6;;
     text-align: justify;
     padding: 20px 0;
 
@@ -216,57 +216,63 @@ h2 {
     margin-top: 10px;
 }
 
-#contact {
-    background-color: #a8a3a5;
-    ;
-    text-align: center;
-    padding: 50px 0;
+/* Estilos para a seção de fale conosco*/
+#contact h2{
+    
+    padding: 30px;
 }
+#contact{
+    background-color: #eeb2c6;
 
-.contact-form {
-    max-width: 600px;
-    margin: 0 auto;
 }
-
-.contact-form input,
-.contact-form textarea,
-.contact-form button {
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #eeb2c6;    
+  }
+  
+  form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+  }
+  
+  label {
     display: block;
-    width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
-}
-
-.contact-form textarea {
-    resize: vertical;
-}
-
-.contact-form button {
-    background-color: #FE74A9;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.contact-info {
-    max-width: 600px;
-    margin: 40px auto 0;
-}
-
-.contact-info h3 {
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.contact-info p {
     margin-bottom: 10px;
-    color: #666;
-}
+    align-items: center;
+  }
 
-
+  .submit-button {
+    display: block;
+    width: 100%;
+    background-color: #f183ae;
+    color: #fff;
+    padding: 10px 0; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #fcafd9;
+  }
 /* Estilos para a seção de depoimentos*/
 #testimonials {
     background-color: #f7e3e3;
